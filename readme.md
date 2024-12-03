@@ -14,6 +14,5 @@ Este proyecto configura dos contenedores Docker que pueden comunicarse entre sí
 ## Cómo usar
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
-   
+   git clone https://github.com/andressssss/entregaFinalIc.git
+   cd entregaFinalIc
