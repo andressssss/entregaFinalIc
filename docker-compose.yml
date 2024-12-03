@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  container1:
+    image: alpine:latest
+    container_name: container1
+    command: tail -f /dev/null
+    networks:
+      - custom_network
+
+  container2:
+    image: alpine:latest
+    container_name: container2
+    command: tail -f /dev/null
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
