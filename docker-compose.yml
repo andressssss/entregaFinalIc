@@ -13,7 +13,7 @@ services:
     container_name: container2
     command: tail -f /dev/null 
     networks:
-      - networkx
+      - custom_network
 
 networks:
   custom_network:

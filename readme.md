@@ -16,4 +16,4 @@ Este proyecto configura dos contenedores Docker que pueden comunicarse entre sí
    git clone https://github.com/andressssss/entregaFinalIc.git
    cd entregaFinalIc
 
-Prueba poli
+Prueba poli 9:16
