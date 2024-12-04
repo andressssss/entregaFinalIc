@@ -4,7 +4,7 @@ Este proyecto configura dos contenedores Docker que pueden comunicarse entre sí
 
 ## Características
 - Red personalizada para comunicación entre contenedores.
-- Contenedor 1: Basado en una imagen de Ubuntu.
+- Contenedor 1: Basado en una imagen de Alpine.
 - Contenedor 2: Basado en una imagen de Alpine.
 
 ## Requisitos
@@ -12,7 +12,8 @@ Este proyecto configura dos contenedores Docker que pueden comunicarse entre sí
 - Docker Compose configurado.
 
 ## Cómo usar
-1. Clona este repositorio:
-   ```bash
+1. Clonar este repositorio:
    git clone https://github.com/andressssss/entregaFinalIc.git
    cd entregaFinalIc
+
+Prueba poli
