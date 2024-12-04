@@ -2,11 +2,11 @@ version: '3.9'
 
 services:
   container1:
-    image: alpine:latest
+    image: noexist:latest
     container_name: container1
     command: tail -f /dev/null
     networks:
-      - custom
+      - custom_network
 
   container2:
     image: alpine:latest
