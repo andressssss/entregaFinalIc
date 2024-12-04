@@ -6,7 +6,7 @@ services:
     container_name: container1
     command: tail -f /dev/null
     networks:
-      - custom_network
+      - custom
 
   container2:
     image: alpine:latest
